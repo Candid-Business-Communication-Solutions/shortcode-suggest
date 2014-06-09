@@ -1,17 +1,15 @@
 <?php 
 /*
-Plugin Name: Shortcode Suggest
+Plugin Name: Shortcodes Autosuggest
 Description: Easily discover registered shortcodes in TinyMCE
 Version: 1.0
-Author:	Scott Evans  
-Author URI: http://scott.ee
+Author:	Bryan Willis
+Author URI: http://profiles.wordpress.org/codecandid/
 Text Domain: shortcode-suggest
 Domain Path: /languages/
 License: GPL v2 or later
 */
-
 defined( 'ABSPATH' ) or die();
-
 define( 'SS_PATH', dirname( __FILE__ ) );
 define( 'SS_PATH_INCLUDES', dirname( __FILE__ ) . '/inc' );
 define( 'SS_FOLDER', basename( SS_PATH ) );
